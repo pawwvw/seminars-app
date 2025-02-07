@@ -1,8 +1,12 @@
+import SeminarList from "./components/SeminarsList"
+
+
 function App() {
   return (
-    <>
-      <h1>Привет</h1>
-    </>
+    <div className="p-4">
+      <SeminarList />
+    </div>
+  
   )
 }
 
